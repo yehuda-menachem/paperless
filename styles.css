@@ -50,17 +50,23 @@ header.site-header img {
 
 .hero {
   text-align: center;
-  padding: 2.5rem 0 1.5rem;
+  padding: 3.5rem 1.25rem;
+  background: linear-gradient(150deg, #2b5586 0%, #3f6ea3 45%, #7396bd 100%);
+}
+
+.hero-inner {
+  max-width: 860px;
+  margin: 0 auto;
 }
 
 .hero h1 {
-  color: var(--brand-dark);
+  color: #fff;
   font-size: 1.8rem;
   margin-bottom: 0.75rem;
 }
 
 .hero p {
-  color: var(--muted);
+  color: rgba(255, 255, 255, 0.88);
   font-size: 1.05rem;
 }
 
