@@ -10,6 +10,10 @@
 
 * { box-sizing: border-box; }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: "Segoe UI", "Arial Hebrew", Arial, sans-serif;
@@ -26,9 +30,16 @@ header.site-header {
 
 header.site-header img {
   display: block;
-  max-width: 100%;
+  max-width: 560px;
+  width: 90%;
   height: auto;
   margin: 0 auto;
+}
+
+@media (max-width: 480px) {
+  header.site-header img {
+    max-width: 320px;
+  }
 }
 
 .wrap {
@@ -86,6 +97,7 @@ section {
   border-radius: 12px;
   padding: 1.75rem;
   margin: 1.5rem 0;
+  scroll-margin-top: 1.5rem;
 }
 
 section h2 {
