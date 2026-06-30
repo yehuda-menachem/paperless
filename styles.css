@@ -50,8 +50,8 @@ header.site-header img {
 
 .hero {
   text-align: center;
-  padding: 3.5rem 1.25rem;
-  background: linear-gradient(150deg, #2b5586 0%, #3f6ea3 45%, #7396bd 100%);
+  padding: 2.5rem 1.25rem 6rem;
+  background: linear-gradient(180deg, #173f7a 0%, #2f5f93 22%, #6f93ba 55%, var(--bg) 90%);
 }
 
 .hero-inner {
