@@ -1,0 +1,151 @@
+:root {
+  --brand: #1f4e96;
+  --brand-dark: #15356b;
+  --bg: #f7f9fc;
+  --text: #222;
+  --muted: #5a6472;
+  --card: #ffffff;
+  --border: #e2e7ef;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", "Arial Hebrew", Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+}
+
+header.site-header {
+  background: #fff;
+  border-bottom: 4px solid var(--brand);
+  padding: 1rem 0;
+}
+
+header.site-header img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.wrap {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+.hero {
+  text-align: center;
+  padding: 2.5rem 0 1.5rem;
+}
+
+.hero h1 {
+  color: var(--brand-dark);
+  font-size: 1.8rem;
+  margin-bottom: 0.75rem;
+}
+
+.hero p {
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
+nav.toc {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+}
+
+nav.toc h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+  color: var(--brand);
+}
+
+nav.toc ul {
+  margin: 0;
+  padding-inline-start: 1.25rem;
+  columns: 2;
+}
+
+nav.toc a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+nav.toc a:hover { color: var(--brand); }
+
+section {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.75rem;
+  margin: 1.5rem 0;
+}
+
+section h2 {
+  color: var(--brand-dark);
+  border-inline-start: 5px solid var(--brand);
+  padding-inline-start: 0.75rem;
+  margin-top: 0;
+}
+
+section h3 {
+  color: var(--brand);
+  margin-top: 1.5rem;
+}
+
+.example {
+  background: #eef3fb;
+  border: 1px dashed var(--brand);
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  margin: 1rem 0;
+}
+
+.example dt { font-weight: 600; color: var(--brand-dark); }
+.example dd { margin-inline-start: 0; margin-bottom: 0.4rem; }
+
+.step {
+  margin: 1.75rem 0;
+  padding-top: 1.75rem;
+  border-top: 1px solid var(--border);
+}
+
+.step:first-of-type {
+  margin-top: 0.5rem;
+  padding-top: 0;
+  border-top: none;
+}
+
+.step p {
+  margin: 0.5rem 0 0.75rem;
+}
+
+.step img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  display: block;
+  margin: 0 auto;
+}
+
+.flow-title {
+  color: var(--brand);
+  font-weight: 600;
+  margin: 0 0 1rem;
+}
+
+footer {
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.9rem;
+  padding: 2rem 1rem 3rem;
+}
